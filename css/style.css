@@ -1,0 +1,640 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(95, 95, 95);
+}
+
+.logo {
+    max-width: 40vw;
+    max-height: 60px;
+}
+
+.title-barro {
+    font-weight: bolder;
+    color: rgb(95, 95, 95) !important;
+}
+
+.title-barro:hover {
+    color: tomato !important;
+}
+
+.style-page-sections form input:hover {
+    color: tomato;
+    font-weight: bold;
+    background: rgb(220, 220, 220);
+}
+
+.welcome-gif {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Section-Aboutme*/
+.aboutme-color {
+    background-color: rgb(218, 218, 218);
+}
+
+.text-about {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    color: rgb(95, 95, 95);
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.text-about:hover {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    color: tomato;
+}
+
+.margin-aboutme {
+    margin: 30px;
+}
+
+.style-aboutme {
+    margin-top: 1%;
+    font-style: oblique;
+}
+
+/*Section Contact*/
+.contact-images{
+    background-image: url(../images/background_contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+}
+
+.class-contact {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: rgb(95, 95, 95);
+}
+
+.text-contact {
+    font-weight: bolder;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.text-contact:hover {
+    color: tomato;
+}
+
+.class-contact div input:hover {
+    color: tomato;
+    font-weight: bold;
+}
+
+.class-contact div textarea:hover {
+    color: tomato;
+    font-weight: bold;
+}
+
+.style-send {
+    text-align: center;
+}
+
+.style-send input {
+    font-weight: bolder;
+}
+
+/*Section-Information*/
+.information-picture {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*width: 60%;*/
+}
+
+/*Section-Footer*/
+.container_footer {
+    background-color:rgb(95,95, 95);
+    margin-top: 30px;
+}
+
+.text-footer {
+    text-align: center;   
+    color: white;
+    font-size: 30px;
+}
+
+.text-center-footer {
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 0.2%;
+}
+
+.fab {
+    color: rgb(95,95, 95);
+}
+
+.fa {
+    color: rgb(95,95, 95);
+}
+
+.text-go {
+    text-decoration: none;
+    color: rgb(95,95, 95);
+}
+
+/*Section-Shop*/
+.section-shop-padding {
+    padding-top: 16%;
+    padding-bottom: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.section-shop img:hover {
+    border-radius: 10%;
+}
+
+.text-shop {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.text-shop:hover{
+    color: tomato;
+}
+
+.shop-title {
+    text-align: center;
+}
+
+.shop-images {
+    background-size: cover;
+    background-position: center center;
+}
+
+.shop-background-image {
+    background-image: url(../images/background_shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*Section Care & Complanints*/
+.section-cc {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url(../images/background_c&c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.style-cc-center {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.style-cc-justify {
+    text-align: justify;
+}
+
+/*Section-Login*/
+.text-login {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.text-login:hover{
+    color: tomato;
+}
+
+
+.section-form {
+    padding-bottom: 20%;
+    text-align: center;
+    margin: 20%;
+}
+
+.section-form h1 {
+    margin-bottom: 5%;
+}
+
+.section-form input {
+    align-content: center;
+}
+
+.margin-login {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form-label {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/*Section Workshop*/
+.section-workshop{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.text-workshop{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.order-card{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.padding-gallery {
+    padding-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text-gallery {
+    color: white;
+}
+
+.text-gallery:hover {
+    color: tomato;
+}
+
+.gallery-images {
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-section {
+    margin-bottom: 5%;
+}
+
+/*Responsive*/
+/*mobile*/
+@media screen and (max-width: 576px) {
+    /*Welcome-barro*/
+    .welcome-image-small {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .welcome-image-large {
+        display: none !important;
+    }
+
+    /*Section-Aboutme*/
+    .style-title-aboutme p{
+        font-size: medium;
+    }
+    .style-aboutme {
+        margin-top: 1%;
+        font-size: small;
+    }
+
+    /*Section-Contact*/
+    .style-title-contact h4 {
+        font-size: medium;
+        padding-bottom: 10%;
+    }
+
+    .style-title-contact label{
+        font-size: small;
+    }
+
+    .style-title-contact input {
+        font-size: small;
+    }
+
+    .style-title-contact textarea {
+        font-size: small;
+    }
+
+    .style-send input {
+        font-size: x-small;
+    }
+
+    /*Section-Information*/
+    .information-display-large {
+        display: none;
+    }
+
+    /*Section-Footer*/
+    .text-footer {
+        font-size: larger;
+    }
+
+    .text-footer:hover {
+        color: tomato;
+    }
+
+    .text-centers-footer {
+        font-size: x-small;
+    }
+
+    .text-go {
+        font-size: small;
+    }
+
+    /*Section-Shop*/
+    .section-shop-padding {
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 25%;
+    }
+
+    /*Section-Workshop*/
+    .display-workshop-large {
+        display: none;
+    }
+
+    .section-workshop{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .text-workshop{
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: larger;
+        margin-top: 10%;
+    }
+
+    .margin-card-workshop {
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+    
+    .gallery-display-large {
+        display: none !important;
+    }
+    
+    .card-section {
+        margin-bottom: 5%;
+    }
+
+    .card-text-small {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .card-text-p {
+        font-size: small;
+        text-orientation: oblique;
+    }
+
+    .btn-text{
+        font-size:x-small;
+    }
+    /*Section-Login*/
+    .margin-login {
+        margin-top: 55%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-login {
+        padding-bottom: 15%;
+    }
+
+    .form-label {
+        font-size: medium;
+    }
+
+    .text-contact input {
+        font-size: x-small;
+    }
+    
+
+    .text-contact-login {
+        font-size: small;
+    }
+
+    /*Section Care & Complanints*/
+    .section-cc {
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+
+    .style-cc-center {
+        padding-bottom: 20px;
+        font-size: larger;
+    }
+
+    .style-cc-justify {
+        font-size: small;
+}
+
+}
+
+/*tablet*/
+@media only screen
+and (min-width: 577px) 
+and (max-width: 768px) {
+    
+    .welcome-image-small {
+        display: none !important;
+    }
+
+    /*Section-Information*/
+    .information-display-large {
+        display: none;
+    }
+
+    /*Section-Aboutme*/
+    .style-title-aboutme p{
+        font-size: large;
+    }
+    .style-aboutme {
+        font-size: medium;
+    }
+
+    /*Section-Contact*/
+    .style-title-contact h4 {
+        font-size: large;
+    }
+
+    .style-title-contact label{
+        font-size: small;
+    }
+
+    .style-title-contact input {
+        font-size: small;
+    }
+
+    .style-title-contact textarea {
+        font-size: small;
+    }
+
+    .style-send input {
+        font-size: small;
+    }
+
+    /*Section Care & Complanints*/
+    .section-cc {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .style-cc-center {
+        padding-bottom: 30px;
+    }
+
+    /*Section-Login*/
+    .text-login {
+        padding-bottom: 10%;    
+    }
+
+    .text-contact input {
+        font-size: small;
+    }
+
+    .text-contact-login {
+        font-size: medium;
+    }
+
+    /*Section-Shop*/
+    .section-shop-padding {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 20%;
+    }
+
+    /*Section-Workshop*/
+    .gallery-display-small {
+        display: none !important;
+    }
+    
+    .display-workshop-large {
+        display: none;
+    }
+
+    .text-workshop{
+        margin-top: 10%;
+    }
+
+    .margin-card-workshop {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .card h5 {
+        font-size: x-large;
+    }
+
+    .card-text-small {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .card-text-p {
+        font-size: small;
+    }
+
+    .btn-text{
+        font-size: small;
+    }
+
+    .section-workshop {
+        margin-top: 50px;
+    }
+
+    /*Section-Footer*/
+    .text-footer {
+        font-size: x-large;
+    }
+    .text-go {
+        font-size: small;
+    }
+
+    .text-centers-footer {
+        font-size: small;
+    }
+
+}
+
+/*Desktop*/
+@media only screen
+and (min-width: 769px) {
+    .logo {
+        max-width: 60vw;
+        max-height: 80px;
+    }
+    
+    .style-gif {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    /*Section-Aboutme*/
+    .card-style {
+        padding: 0%;
+    }
+
+    /*Section-Information*/
+    .information-display-large {
+        display: none;
+    }
+
+    /*Section-Footer*/
+    .text-center-footer {
+        font-size: small;
+    }
+
+    .text-footer {
+        font-size: x-large;
+    }
+
+    .text-footer:hover {
+        color: tomato;
+    }
+
+    /*Section-Shop*/
+    .welcome-image-small {
+        display: none !important;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .welcome-image-large {
+        height: 100vh;
+        background-size: cover;
+    }
+    
+
+
+    /*Section-Workshop*/
+    .gallery-display-small {
+        display: none !important;
+    }
+    .display-workshop-small {
+        display: none;
+    }
+
+    /*Section Care & Complanints*/
+    .section-cc {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .style-cc-center {
+        padding-bottom: 30px;
+    }
+
+    /*Section-Login*/
+    .text-login {
+        padding-bottom: 5%;
+    }
+
+}
